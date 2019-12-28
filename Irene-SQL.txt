@@ -1,0 +1,3 @@
+select * from emp where hiredate like ('%FEB-81') and comm>400;
+
+select * from emp where comm is NULL or comm=0;
